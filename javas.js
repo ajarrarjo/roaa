@@ -19,19 +19,23 @@ alert (`hi ${x}`);
 var age = prompt('what is your age');
 alert (`العمر كلو`)
     
-var area;   
-function Area(width,hight){      
-      return width*hight;  
-      }        area=Area(11,7);
-// var resultf = `<p>${area}</p>`
+var area;    
 
-var resultf = '<p>'+'<b>'+'<b>'+"The Area = "+'</b>'+ area +'</b>'+ '</p>'    
+    function Area(width,hight){       
 
-    document.write(resultf);
 
-   
+     return width*hight;
 
-}
+      }      
+
+
+  area=Area(12,9);
+        // var resultf = `<p>${area}</p>`    
+
+    var resultf = '<p>'+'<b>'+'<b>'+"Location = "+'</b>'+ area +'</b>'+ '</p>'      
+
+  document.write(resultf);
+
 
 var pick= prompt( " What do you want; suit or dress");
 var num= prompt( "How Many " + pick);
